@@ -9,7 +9,7 @@ import os,rasterio
 from osgeo import gdal,ogr,osr
 
 # reading shapefile to set boundaries
-shapefile_folder = '../../QGIS/500Cities_City_11082016/'
+shapefile_folder = './500Cities_City_11082016/' # path to folder with city shapefile
 shapefile_name = ((os.listdir(shapefile_folder)[0]).split('.')[0]).split('_correct_CRS')[0]
 drv    = ogr.GetDriverByName('ESRI Shapefile') # define shapefile driver
 ds_in  = drv.Open(shapefile_folder+shapefile_name+'.shp',0) #open shapefile
