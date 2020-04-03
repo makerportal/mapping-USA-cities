@@ -87,6 +87,7 @@ m.drawparallels(parallels,labels=[True,False,False,False],fontsize=12)
 meridians = np.linspace(CONUS_bounds[0],CONUS_bounds[1],5) # longitudes
 m.drawmeridians(meridians,labels=[False,False,False,True],fontsize=12)
 # m.drawcounties()
+m.drawcountries(color='k')
 m.fillcontinents(color=plt.cm.tab20c(20), lake_color=plt.cm.Paired(0))
 m.drawstates(color='k')
 m.drawcoastlines(color='k')
