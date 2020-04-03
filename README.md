@@ -5,4 +5,4 @@ Data sourced from: https://catalog.data.gov/dataset/500-cities-city-boundaries-a
 
 # Example Output:
 
-![CONUS 498 Largest Cities](https://makersportal.com/s/US_500_largest_cities_contiguous_white.)
+![CONUS 498 Largest Cities](https://makersportal.com/s/US_500_largest_cities_contiguous_white.png)
